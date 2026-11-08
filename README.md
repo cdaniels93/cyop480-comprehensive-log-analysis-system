@@ -19,3 +19,11 @@ Created a Windows Scheduled Task to run `export_events.ps1` every five minutes. 
 Ran `log_collect.py` on Ubuntu and verified that the Kali authentication log, Windows security events, and web access log were present.
 
 ![Ubuntu terminal showing log collection and the retrieved log files](02-log-collection.png)
+
+---
+
+## 3. Collected and processed log files
+
+Verified that the source logs and analysis outputs were present in `/root/lab3/logs/`, including the normalized logs, threat report, and anomaly report.
+
+![Ubuntu terminal listing the lab log files and analysis outputs](03-collected-log-files.png)
