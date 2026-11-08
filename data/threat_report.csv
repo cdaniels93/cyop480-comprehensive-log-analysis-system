@@ -1,0 +1,6 @@
+ip_address,count,source,threat_score
+lab_test_a,12,['linux'],36
+lab_test_spike,9,['linux'],27
+invalid_user,5,['linux'],15
+lab_test_c,5,['linux'],15
+lab_test_b,4,['linux'],12
