@@ -1,2 +1,6 @@
-# cyop480-comprehensive-log-analysis-system
-Automated security log collection, normalization, correlation, and anomaly detection across Linux, Windows, and web systems using Python, Pandas, Scikit-learn, and Splunk.
+# Comprehensive Automated Log Analysis System
+
+## Project overview
+I built a lab system that collected logs from Linux, Windows, and a web server,
+converted them into a common format, searched for suspicious patterns, and
+sent results to Splunk and a local email alert.
