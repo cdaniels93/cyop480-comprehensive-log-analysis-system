@@ -78,6 +78,10 @@ The `log_normalize.py` script converted collected Linux and web events into a co
 
 ---
 
-## Threat report
+---
 
-`log_analyze.py` applied correlation rules to the normalized events and saved its results to `threat_report.csv`. The report listed accounts with repeated failed login attempts and their threat scores.
+## 10. Threat report
+
+The `log_analyze.py` script applied correlation rules to the normalized events and saved the results in `threat_report.csv`. The report summarizes repeated failed-login activity by source/account label and includes a threat score.
+
+[View the threat report](data/threat_report.csv)
