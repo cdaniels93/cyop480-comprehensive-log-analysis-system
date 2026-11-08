@@ -85,3 +85,19 @@ The `log_normalize.py` script converted collected Linux and web events into a co
 The `log_analyze.py` script applied correlation rules to the normalized events and saved the results in `threat_report.csv`. The report summarizes repeated failed-login activity by source/account label and includes a threat score.
 
 [View the threat report](data/threat_report.csv)
+
+---
+
+## Challenges, lessons learned, and improvements
+
+### Challenges
+
+I had to troubleshoot network access between the Ubuntu, Kali, and Windows systems. Splunk’s HTTP Event Collector (HEC) connection also required checking the endpoint, port, firewall access, and token. I corrected script and data issues as I tested the collection, normalization, and analysis steps.
+
+### What I learned
+
+I learned how to collect logs from Linux and Windows, normalize different event formats, search for failed logins in Splunk, and generate reports and email alerts. I also learned that automated results depend on accurate parsing and valid data. For example, malformed field values can affect how events appear in a dashboard or report.
+
+### What I would improve
+
+I would add stronger input validation and clearer error handling to the scripts, test log parsing against more varied examples, and verify the normalized output before sending it to Splunk. I would also keep credentials and tokens outside source files and use redacted sample data in a public portfolio.
