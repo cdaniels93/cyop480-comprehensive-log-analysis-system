@@ -51,3 +51,11 @@ Searched Splunk for failed-login events indexed as `lab3_logs`. The search retur
 Created the `Lab3_Threats` dashboard in Splunk with a bar chart showing failed login counts by IP address.
 
 ![Splunk Lab3_Threats dashboard showing failed logins by IP](06-splunk-dashboard.png)
+
+---
+
+## 7. Generated SSH test activity
+
+Reviewed the Kali authentication log after generating failed SSH login attempts from the Ubuntu lab system. The entries show that the test events were recorded.
+
+![Failed SSH test attempts recorded in the Kali authentication log](07-generated-ssh-test-traffic.png)
